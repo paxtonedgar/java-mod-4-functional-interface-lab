@@ -11,3 +11,7 @@ public class Main {
 
 @FunctionalInterface
 // your code here
+interface ConcatStringFunction{
+    <T> void apply(T input);
+
+}
